@@ -16,18 +16,29 @@
     </header>
 
     <nav class="topnav">
-        <a href="index.html">Accueil</a>
-        <a href="about-me.html">à Propos de moi</a>
-        <a href="my-dreams.html">Mes rêves d'apprenant</a>
-        <a href="my-passion.html">Mes passions</a>
+        <a href="/">Accueil</a>
+        <a href="/?page=1">à Propos de moi</a>
+        <a href="/?page=2">Mes rêves d'apprenant</a>
+        <a href="/?page=3">Mes passions</a>
         <a href="CV.pdf" target="_blank">Mon CV</a>
     </nav>
 <section>
-    <?php 
-    if(){
-
+    <?php
+    if(isset($_GET["page"])){
+    switch ($_GET["page"]) {
+        case '1':
+            include "./includes/about-me.html";
+            break;
+            case '2':
+            include "./includes/my-dreams.html";
+            break;
+                case '3':
+                include "./includes/my-passion.html";
+                break;
+            } 
     }else{
-        
+        include "./includes/home.html";
+
     }
     ?>
     </section>
