@@ -1,0 +1,48 @@
+h1,h2{
+    margin: 20px 0;
+    width: 90%;
+    text-align: center;
+}
+.row{
+    display: inline-block;
+}
+.column {
+    float: left;
+    width: 80%;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 0px 75px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+}
+#title{
+    text-align: center;
+    text-decoration: underline overline;
+    text-decoration-color: black;
+    font-size: large;
+}
+
+.container {
+    padding: 0 16px;
+}
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+img{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
