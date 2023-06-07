@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/aboutme.css">
     <link rel="stylesheet" href="./css/mydreams.css">
+    <link rel="stylesheet" href="./css/background.css">
+    
 </head>
 
 <body>

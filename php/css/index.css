@@ -42,4 +42,10 @@ h1{
     flex-flow: row wrap;
     justify-content: center;
 }
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
 
