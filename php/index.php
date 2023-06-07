@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/aboutme.css">
     <link rel="stylesheet" href="./css/mydreams.css">
     <link rel="stylesheet" href="./css/mypassion.css">
+    <link rel="stylesheet" href="./css/background.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
 
     <?php include "./includes/navbar.html" ?>
 <section>
+    <?php include "./includes/background.html"?>
     <?php
     if(isset($_GET["page"])){
     switch ($_GET["page"]) {
