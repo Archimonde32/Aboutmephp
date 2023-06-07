@@ -7,21 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/aboutme.css">
+    <link rel="stylesheet" href="./css/mydreams.css">
 </head>
 
 <body>
     <header>
-        <p><strong>Developpeur Web et Web Mobile</strong></p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit omnis explicabo hic accusamus, impedit neque.</p>
+        <?php include "./includes/header.html"?>
     </header>
 
-    <nav class="topnav">
-        <a href="/">Accueil</a>
-        <a href="/?page=1">à Propos de moi</a>
-        <a href="/?page=2">Mes rêves d'apprenant</a>
-        <a href="/?page=3">Mes passions</a>
-        <a href="CV.pdf" target="_blank">Mon CV</a>
-    </nav>
+    <?php include "./includes/navbar.html" ?>
 <section>
     <?php
     if(isset($_GET["page"])){
