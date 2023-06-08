@@ -18,10 +18,9 @@
     <header>
         <?php include "./includes/header.html"?>
     </header>
-
     <?php include "./includes/navbar.html" ?>
 <section>
-    <?php include "./includes/background.html"?>
+<?php include "./includes/background.html"?>
     <?php
     if(isset($_GET["page"])){
     switch ($_GET["page"]) {

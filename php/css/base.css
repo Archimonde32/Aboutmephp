@@ -1,7 +1,7 @@
 /* commun */
 body{
-    margin: 0px;
-    background-color: rgb(70, 67, 67);
+    margin: 0;
+    padding: 0;
 }
 header, footer{
 width: 100%;

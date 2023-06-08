@@ -41,6 +41,7 @@ img{
     display: flex; 
     flex-flow: row wrap;
     justify-content: center;
+    transition: all 0.5s ;
 }
 figcaption {
     background-color: #222;
@@ -48,4 +49,3 @@ figcaption {
     font: italic smaller sans-serif;
     text-align: center;
 }
-
